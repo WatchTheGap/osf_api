@@ -11,13 +11,16 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema[7.0].define(version: 2022_11_19_225949) do
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "sales", force: :cascade do |t|
     t.string "amount"
     t.string "tickets"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "user_id", null: false
-    t.integer "vendor_id", null: false
+    t.bigint "user_id", null: false
+    t.bigint "vendor_id", null: false
     t.index ["user_id"], name: "index_sales_on_user_id"
     t.index ["vendor_id"], name: "index_sales_on_vendor_id"
   end
