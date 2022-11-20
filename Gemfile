@@ -9,6 +9,9 @@ gem "rails", "~> 7.0.4"
 #Heroku requires Postgres
 gem 'pg'
 
+#for CORS
+gem 'rack-cors', :require => 'rack/cors'
+
 # Use sqlite3 as the database for Active Record
 # gem "sqlite3", "~> 1.4"
 
