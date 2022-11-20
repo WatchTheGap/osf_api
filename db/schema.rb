@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_11_20_203911) do
+ActiveRecord::Schema[7.0].define(version: 2022_11_20_205204) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -32,7 +32,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_11_20_203911) do
     t.string "email"
     t.datetime "dob"
     t.string "instagram"
-    t.integer "phone"
+    t.string "phone"
   end
 
   create_table "vendors", force: :cascade do |t|
