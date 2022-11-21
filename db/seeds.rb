@@ -5,3 +5,34 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+Vendor.destroy_all
+
+Vendor.create!([
+    {
+    fullname: 'Bill Murray',
+    email: 'bill@murray.com',
+    instagram: 'billm1',
+    thumbnail: 'https://fillmurray.com/100/100',
+    desc: 'For relaxing times, make it Suntory time.',
+    password: 'Bill123#'
+},
+{
+    fullname: 'Nicolas Cage',
+    email: 'nick@cage.com',
+    instagram: 'nickc1',
+    thumbnail: 'https://placecage.com/100/100',
+    desc: 'I want to be Bob Denver on acid playing the accordion',
+    password: 'Nick456#'
+},
+{
+    fullname: 'Steven Segal',
+    email: 'steve@segal.com',
+    instagram: 'steves1',
+    thumbnail: 'https://stevensegallery.com/100/100',
+    desc: 'I want to be Bob Denver on acid playing the accordion',
+    password: 'Steve789#'
+}
+])
+
+p "Created Test Vendors"
