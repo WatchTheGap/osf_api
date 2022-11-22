@@ -10,29 +10,122 @@ Vendor.destroy_all
 
 Vendor.create!([
     {
-    fullname: 'Bill Murray',
-    email: 'bill@murray.com',
-    instagram: 'billm1',
-    thumbnail: 'https://www.fillmurray.com/100/100',
-    desc: 'For relaxing times, make it Suntory time.',
-    password: 'Bill123#'
-},
-{
-    fullname: 'Nicolas Cage',
-    email: 'nick@cage.com',
-    instagram: 'nickc1',
-    thumbnail: 'https://www.placecage.com/100/100',
-    desc: 'I want to be Bob Denver on acid playing the accordion.',
-    password: 'Nick456#'
-},
-{
-    fullname: 'Steven Segal',
-    email: 'steve@segal.com',
-    instagram: 'steves1',
-    thumbnail: 'https://www.stevensegallery.com/100/100',
-    desc: 'Any great warrior is also a scholar, and a poet, and an artist.',
-    password: 'Steve789#'
-}
-])
+      fullname: "Cat James",
+      shopname: "Old Sol New Tricks",
+      phone: "760.803.3987",
+      instagram: "@oldsolnewtricks",
+      desc: "tattooer",
+      email: "catjameswork@gmail.com",
+      thumbnail: "/assets/photos/vendor_originals/Cat James_Oldsolnewtricks.jpeg"
+    },
+    {
+      fullname: "Damon Stevens",
+      shopname: "Manual Ware",
+      phone: "406.369.2366",
+      instagram: "@manualware",
+      desc: "skateboard deck art",
+      email: "dmansteve24@gmail.com",
+      thumbnail: "/assets/photos/vendor_originals/Damon Stevens_Manualware.jpeg"
+    },
+    {
+      fullname: "Magenta Reynolds",
+      shopname: "Leather Sage",
+      phone: "970.403.2013",
+      instagram: "@leather.sage",
+      desc: "leather & beading work",
+      email: "leathersageco@gmail.com",
+      thumbnail: "/assets/photos/vendor_originals/Magenta Reynolds_Leather.sage.jpeg"
+    },
+    {
+      fullname: "Hayley Budzinski",
+      shopname: "A Little West",
+      phone: "907.350.4298",
+      instagram: "@alittlewest",
+      desc: "metalsmith maker",
+      email: "Hayleybudzinski@gmail.com",
+      thumbnail: "/assets/photos/vendor_originals/Hayley Budzinski_Alittlewest.jpeg"
+    },
+    {
+      fullname: "Alyssa Wilson",
+      shopname: "Art by Ocha",
+      phone: "303.829.0000",
+      instagram: "@artbyocha",
+      desc: "illustrator tattoo apprentice",
+      email: "artbyocha@gmail.com",
+      thumbnail: "/assets/photos/vendor_originals/Alyssa Wilson_ArtbyOcha.jpeg"
+    },
+    {
+      fullname: "Holly Williams",
+      shopname: "Pine Bones",
+      phone: "631.793.9265",
+      instagram: "@pine.bones",
+      desc: "illustrator",
+      email: "pine.bones.studio@gmail.com",
+      thumbnail: "/assets/photos/vendor_originals/Holly Williams_Pine.bones.jpg"
+    },
+    {
+      fullname: "Katie White",
+      shopname: "Velvet Moss Magic",
+      phone: "732.996.0059",
+      instagram: "@velvetmossmagic",
+      desc: "stained glass & metal maker",
+      email: "katiewh26@yahoo.com",
+      thumbnail: "/assets/photos/vendor_originals/Katie White_VelvetMossMagic.jpeg"
+    },
+    {
+      fullname: "Lizzie Iannizzotto",
+      shopname: "Ianni Arts",
+      phone: "760.445.9535",
+      instagram: "@lizzieianniz",
+      desc: "beaded jewelry",
+      email: "lizzie.zotto@gmail.com",
+      thumbnail: "/assets/photos/vendor_originals/Lizzie_Lizzie I.jpeg"
+    },
+    {
+      fullname: "Brenden Klockenga",
+      shopname: "Krizzles Mind",
+      phone: "217.891.3923",
+      instagram: "@krizzlesmind",
+      desc: "painter illustrator",
+      email: "klockengab@gmail.com",
+      thumbnail: "/assets/photos/vendor_originals/Brenden Klockenga_Krizzle's Mind.jpeg"
+    },
+    {
+      fullname: "Elaina Keegan",
+      shopname: "Concrete Poppy Design",
+      phone: "925.640.4091",
+      instagram: "@concretepoppy",
+      desc: "sustainable candles",
+      email: "concretepoppydesign@gmail.com",
+      thumbnail: "/assets/photos/vendor_originals/Elaina Keegan_Concrete Poppy.jpeg"
+    },
+    {
+      fullname: "Rosie Faccone",
+      shopname: "rfaccone",
+      phone: "973.687.4388",
+      instagram: "@rfaccone",
+      desc: "silversmith jewelry",
+      email: "rosiefaccone@gmail.com",
+      thumbnail: "/assets/photos/vendor_originals/Rosie Faccone_Rfaccone.jpeg"
+    },
+    {
+      fullname: "Nikki Hazamy",
+      shopname: "Apothecary",
+      phone: "313.617.7049",
+      instagram: "@balancedrootapothecary",
+      desc: "local apothecary",
+      email: "hello@balancedrootapothecary.com",
+      thumbnail: "/assets/photos/vendor_originals/Nikki Hazamy_Balanced Root Apothecary.jpeg"
+    },
+    {
+      fullname: "Rachael Reuter",
+      shopname: "Raereu ceramics",
+      phone: "417.230.7753",
+      instagram: "@raereuceramics",
+      desc: "ceramics",
+      email: "reuter.rachael@gmail.com",
+      thumbnail: "/assets/photos/vendor_originals/Rachael Reuter_RaeReuCeramics.jpeg"
+    }
+  ])
 
 p "Created Test Vendors"
