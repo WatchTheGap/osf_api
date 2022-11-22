@@ -16,7 +16,7 @@ Vendor.create!([
       instagram: "@oldsolnewtricks",
       desc: "tattooer",
       email: "catjameswork@gmail.com",
-      thumbnail: "/assets/photos/vendor_originals/Cat James_Oldsolnewtricks.jpeg"
+      thumbnail: "/assets/photos/vendor_crops/Cat James_Oldsolnewtricks.jpeg"
     },
     {
       fullname: "Damon Stevens",
@@ -25,7 +25,7 @@ Vendor.create!([
       instagram: "@manualware",
       desc: "skateboard deck art",
       email: "dmansteve24@gmail.com",
-      thumbnail: "/assets/photos/vendor_originals/Damon Stevens_Manualware.jpeg"
+      thumbnail: "/assets/photos/vendor_crops/Damon Stevens_Manualware.jpeg"
     },
     {
       fullname: "Magenta Reynolds",
@@ -34,7 +34,7 @@ Vendor.create!([
       instagram: "@leather.sage",
       desc: "leather & beading work",
       email: "leathersageco@gmail.com",
-      thumbnail: "/assets/photos/vendor_originals/Magenta Reynolds_Leather.sage.jpeg"
+      thumbnail: "/assets/photos/vendor_crops/Magenta Reynolds_Leather.sage.jpeg"
     },
     {
       fullname: "Hayley Budzinski",
@@ -43,7 +43,7 @@ Vendor.create!([
       instagram: "@alittlewest",
       desc: "metalsmith maker",
       email: "Hayleybudzinski@gmail.com",
-      thumbnail: "/assets/photos/vendor_originals/Hayley Budzinski_Alittlewest.jpeg"
+      thumbnail: "/assets/photos/vendor_crops/Hayley Budzinski_Alittlewest.jpeg"
     },
     {
       fullname: "Alyssa Wilson",
@@ -52,7 +52,7 @@ Vendor.create!([
       instagram: "@artbyocha",
       desc: "illustrator tattoo apprentice",
       email: "artbyocha@gmail.com",
-      thumbnail: "/assets/photos/vendor_originals/Alyssa Wilson_ArtbyOcha.jpeg"
+      thumbnail: "/assets/photos/vendor_crops/Alyssa Wilson_ArtbyOcha.jpeg"
     },
     {
       fullname: "Holly Williams",
@@ -61,7 +61,7 @@ Vendor.create!([
       instagram: "@pine.bones",
       desc: "illustrator",
       email: "pine.bones.studio@gmail.com",
-      thumbnail: "/assets/photos/vendor_originals/Holly Williams_Pine.bones.jpg"
+      thumbnail: "/assets/photos/vendor_crops/Holly Williams_Pine.bones.jpg"
     },
     {
       fullname: "Katie White",
@@ -70,7 +70,7 @@ Vendor.create!([
       instagram: "@velvetmossmagic",
       desc: "stained glass & metal maker",
       email: "katiewh26@yahoo.com",
-      thumbnail: "/assets/photos/vendor_originals/Katie White_VelvetMossMagic.jpeg"
+      thumbnail: "/assets/photos/vendor_crops/Katie White_VelvetMossMagic.jpeg"
     },
     {
       fullname: "Lizzie Iannizzotto",
@@ -79,7 +79,7 @@ Vendor.create!([
       instagram: "@lizzieianniz",
       desc: "beaded jewelry",
       email: "lizzie.zotto@gmail.com",
-      thumbnail: "/assets/photos/vendor_originals/Lizzie_Lizzie I.jpeg"
+      thumbnail: "/assets/photos/vendor_crops/Lizzie_Lizzie I.jpeg"
     },
     {
       fullname: "Brenden Klockenga",
@@ -88,7 +88,7 @@ Vendor.create!([
       instagram: "@krizzlesmind",
       desc: "painter illustrator",
       email: "klockengab@gmail.com",
-      thumbnail: "/assets/photos/vendor_originals/Brenden Klockenga_Krizzle's Mind.jpeg"
+      thumbnail: "/assets/photos/vendor_crops/Brenden Klockenga_Krizzle's Mind.jpeg"
     },
     {
       fullname: "Elaina Keegan",
@@ -97,7 +97,7 @@ Vendor.create!([
       instagram: "@concretepoppy",
       desc: "sustainable candles",
       email: "concretepoppydesign@gmail.com",
-      thumbnail: "/assets/photos/vendor_originals/Elaina Keegan_Concrete Poppy.jpeg"
+      thumbnail: "/assets/photos/vendor_crops/Elaina Keegan_Concrete Poppy.jpeg"
     },
     {
       fullname: "Rosie Faccone",
@@ -106,7 +106,7 @@ Vendor.create!([
       instagram: "@rfaccone",
       desc: "silversmith jewelry",
       email: "rosiefaccone@gmail.com",
-      thumbnail: "/assets/photos/vendor_originals/Rosie Faccone_Rfaccone.jpeg"
+      thumbnail: "/assets/photos/vendor_crops/Rosie Faccone_Rfaccone.jpeg"
     },
     {
       fullname: "Nikki Hazamy",
@@ -115,7 +115,7 @@ Vendor.create!([
       instagram: "@balancedrootapothecary",
       desc: "local apothecary",
       email: "hello@balancedrootapothecary.com",
-      thumbnail: "/assets/photos/vendor_originals/Nikki Hazamy_Balanced Root Apothecary.jpeg"
+      thumbnail: "/assets/photos/vendor_crops/Nikki Hazamy_Balanced Root Apothecary.jpeg"
     },
     {
       fullname: "Rachael Reuter",
@@ -124,7 +124,7 @@ Vendor.create!([
       instagram: "@raereuceramics",
       desc: "ceramics",
       email: "reuter.rachael@gmail.com",
-      thumbnail: "/assets/photos/vendor_originals/Rachael Reuter_RaeReuCeramics.jpeg"
+      thumbnail: "/assets/photos/vendor_crops/Rachael Reuter_RaeReuCeramics.jpeg"
     }
   ])
 
