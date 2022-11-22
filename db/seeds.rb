@@ -34,7 +34,7 @@ Vendor.create!([
       instagram: "@leather.sage",
       desc: "leather & beading work",
       email: "leathersageco@gmail.com",
-      thumbnail: "/assets/photos/vendor_crops/Magenta Reynolds_Leather.sage.jpeg"
+      thumbnail: "/assets/photos/vendor_crops/Magenta Reynolds_Leather_sage.jpeg"
     },
     {
       fullname: "Hayley Budzinski",
