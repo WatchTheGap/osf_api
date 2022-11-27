@@ -3,9 +3,15 @@ class UsersController < ApplicationController
 
   # GET /users
   def index
+
+    if params.include?("email")
+      @user = User.find_by(email: params["email"])
+      render json: @user, include: 'sales'
+    else
     @users = User.all
 
     render json: @users, include: 'sales'
+    end
   end
 
   # GET /users/1

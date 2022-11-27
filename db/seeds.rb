@@ -6,6 +6,25 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
+
+
+User.destroy_all
+
+User.create!([
+    {
+        fullname: "Ferris Bueller",
+        email: "ferris@bueller.com",
+        instagram: "ferrisb1",
+        phone: "2223334444"
+    },
+        fullname: "Cameron Frye",
+        email: "cameron@frye.com",
+        instagram: "camfrye1",
+        phone: "4445556666"
+])
+
+p "Created Test Users"
+
 Vendor.destroy_all
 
 Vendor.create!([
