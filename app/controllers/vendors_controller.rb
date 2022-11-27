@@ -4,11 +4,9 @@ class VendorsController < ApplicationController
   # GET /vendors
   def index
 
-    if email = params[:q]
-      @vendor = Vendor.find_by(email: email)
+    if params.include?("email") && params.include?("email")
+      @vendor = Vendor.find_by(email: params["email"], phone: params["password"])
       render json: @vendor, include: 'sales'
-
-      
     else
     @vendors = Vendor.all
     render json: @vendors, include: 'sales'
