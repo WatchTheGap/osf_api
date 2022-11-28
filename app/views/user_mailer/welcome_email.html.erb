@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Hello, <%= @user.name %>!</h1>
+    <p>
+      Thank you for registering for Old Sol Fiesta.
+    </p>
+    <p>
+      Your unique QR Code is below.
+    </p>
+    <p>Make sure to SAVE THIS EMAIL and have your code ready during the event. When you make a purchase, your code will be scanned.</p>
+
+    <img src="https://chart.googleapis.com/chart?chs=150x150&amp;cht=qr&amp;chl=<%= @user.email%>">
+
+    <p>Have a great day, and we'll see you on <b>December 3rd!</b></p>
+
+  </body>
+</html>
+
+
+
