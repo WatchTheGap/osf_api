@@ -10,9 +10,12 @@ class MessagesController < ApplicationController
 
     respond_to do |format|
       if @message.valid?
-        format.html {
-          MessageMailer.contact_team(@message).deliver_now
-        }
+
+        MessageMailer.with(message: @message).contact_team.deliver_now
+
+        # format.html {
+        #   MessageMailer.contact_team(@message).deliver_now
+        # }
       else
         format.html {
           flash.now[:error] = "Oops! We weren't able to deliver your message."
