@@ -11,7 +11,7 @@ class MessagesController < ApplicationController
     respond_to do |format|
       if @message.valid?
         format.html {
-          MessageMailer.contact_crew(@message).deliver_now
+          MessageMailer.contact_team(@message).deliver_now
         }
       else
         format.html {
