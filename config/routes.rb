@@ -2,7 +2,8 @@ Rails.application.routes.draw do
   resources :sales
   resources :vendors
   resources :users
-  
+  resources :admins
+
   # Contact the team
   match '/contact-team', to:'messages#new', via: :get, as:'contact'
   match '/contact-team', to:'messages#create', via: :post

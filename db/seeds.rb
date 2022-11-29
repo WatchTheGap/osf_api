@@ -6,7 +6,20 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-
+Admin.destroy_all
+Admin.create!([
+    {
+        fullname: "Cat James",
+        email: "catjameswork@gmail.com",
+        phone: "7608033987",
+    },
+    {
+        fullname: "Sara Basile",
+        email: "sara@snbasile.com",
+        phone: "5164283536",
+    }
+])
+p 'Created Test Admins'
 
 User.destroy_all
 
