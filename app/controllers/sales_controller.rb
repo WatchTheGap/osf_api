@@ -5,7 +5,7 @@ class SalesController < ApplicationController
   def index
 
     if params.include?("vendor_id")
-      @sales = Sale.find_by(vendor_id: params["vendor_id"])
+      @sales = Sale.where(vendor_id: params["vendor_id"])
       render json: @sales, include: 'user'
     else
     @sales = Sale.all
