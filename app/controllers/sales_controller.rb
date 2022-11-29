@@ -5,7 +5,7 @@ class SalesController < ApplicationController
   def index
     @sales = Sale.all
 
-    render json: @sales, include: 'users'
+    render json: @sales, include: 'user'
   end
 
   # GET /sales/1
