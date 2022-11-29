@@ -3,9 +3,15 @@ class SalesController < ApplicationController
 
   # GET /sales
   def index
+
+    if params.include?("vendor_id")
+      @sales = Sales.find_by(vendor_id: params["vendor_id"])
+      render json: @sales, include: 'user'
+    else
     @sales = Sale.all
 
     render json: @sales, include: 'user'
+    end
   end
 
   # GET /sales/1
