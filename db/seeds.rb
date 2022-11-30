@@ -7,6 +7,11 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 Admin.destroy_all
+User.destroy_all
+Vendor.destroy_all
+
+p 'Destroy All'
+
 Admin.create!([
     {
         fullname: "Cat James",
@@ -21,7 +26,6 @@ Admin.create!([
 ])
 p 'Created Test Admins'
 
-User.destroy_all
 
 User.create!([
     {
@@ -38,7 +42,6 @@ User.create!([
 
 p "Created Test Users"
 
-Vendor.destroy_all
 
 Vendor.create!([
     {
