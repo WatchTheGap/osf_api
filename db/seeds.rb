@@ -96,7 +96,7 @@ Vendor.create!([
       instagram: "@pine.bones",
       desc: "illustrator",
       email: "pine.bones.studio@gmail.com",
-      thumbnail: "/assets/photos/vendor_crops/HollyWilliams_PineBones.jpg"
+      thumbnail: "/assets/photos/vendor_crops/HollyWilliams_PineBones.jpeg"
     },
     {
       fullname: "Katie White",
