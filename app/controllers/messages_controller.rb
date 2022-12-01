@@ -1,5 +1,5 @@
 class MessagesController < ApplicationController
-
+  include ActionController::MimeResponds
 
   def new
     @message = Message.new
