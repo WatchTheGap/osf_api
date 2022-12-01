@@ -164,10 +164,10 @@ Vendor.create!([
     {
       fullname: "Stephanie Ledezma",
       shopname: "Fermented Roots",
-      phone: "9999999999",
+      phone: "9515058751",
       instagram: "@fermented.roots",
       desc: "plant curator",
-      email: "stephanie.ledezma@gmail.com",
+      email: "steph.ledez95@gmail.com",
       thumbnail: "/assets/photos/vendor_crops/StephanieLedezma_FermentedRoots.jpeg"
     }
   ])
