@@ -4,8 +4,8 @@ class Message
     include ActiveModel::Validations
   
     # Let's us access as if they were actual database objects
-    attr_accessor :name, :email, :subject, :message
+    attr_accessor :firstname, :lastname, :email, :phone, :textbody
   
     # Yay validation!
-    validates :name, :email, :subject, :message, presence: true
+    validates :firstname, :lastname, :email, :phone, :textbody, presence: true
   end
