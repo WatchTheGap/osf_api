@@ -150,7 +150,7 @@ Vendor.create!([
       instagram: "@balancedrootapothecary",
       desc: "local apothecary",
       email: "hello@balancedrootapothecary.com",
-      thumbnail: "/assets/photos/vendor_crops/Nikki Hazamy_BalancedRootApothecary.jpeg"
+      thumbnail: "/assets/photos/vendor_crops/NikkiHazamy_BalancedRootApothecary.jpeg"
     },
     {
       fullname: "Rachael Reuter",
