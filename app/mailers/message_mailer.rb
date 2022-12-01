@@ -4,7 +4,7 @@ class MessageMailer < ApplicationMailer
     default to: "OldSolFiesta@gmail.com"
 
 def contact_team(message)
-  @message = message.message
+  @message = message.textbody
   @subject = 'New Message from OSF Contact Us'
   @from = "#{message.firstname} <#{message.email}>"
 
