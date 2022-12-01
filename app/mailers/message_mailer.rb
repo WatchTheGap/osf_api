@@ -8,9 +8,7 @@ def contact_team(message)
   @subject = message.subject
   @from = "#{message.name} <#{message.email}>"
 
-  mail(subject:@subject, from:@from) do |format|
-    format.text
-    format.html
+  mail(subject:@subject, from:@from) 
   end
 end
 end
