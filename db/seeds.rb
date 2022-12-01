@@ -47,119 +47,128 @@ Vendor.create!([
     {
       fullname: "Cat James",
       shopname: "Old Sol New Tricks",
-      phone: "760.803.3987",
+      phone: "7608033987",
       instagram: "@oldsolnewtricks",
       desc: "tattooer",
       email: "catjameswork@gmail.com",
-      thumbnail: "/assets/photos/vendor_crops/Cat James_Oldsolnewtricks.jpeg"
+      thumbnail: "/assets/photos/vendor_crops/CatJames_Oldsolnewtricks.jpeg"
     },
     {
       fullname: "Damon Stevens",
       shopname: "Manual Ware",
-      phone: "406.369.2366",
+      phone: "4063692366",
       instagram: "@manualware",
       desc: "skateboard deck art",
       email: "dmansteve24@gmail.com",
-      thumbnail: "/assets/photos/vendor_crops/Damon Stevens_Manualware.jpeg"
+      thumbnail: "/assets/photos/vendor_crops/DamonStevens_Manualware.jpeg"
     },
     {
       fullname: "Magenta Reynolds",
       shopname: "Leather Sage",
-      phone: "970.403.2013",
+      phone: "9704032013",
       instagram: "@leather.sage",
       desc: "leather & beading work",
       email: "leathersageco@gmail.com",
-      thumbnail: "/assets/photos/vendor_crops/Magenta Reynolds_Leather_sage.jpeg"
+      thumbnail: "/assets/photos/vendor_crops/MagentaReynolds_Leather_sage.jpeg"
     },
     {
       fullname: "Hayley Budzinski",
       shopname: "A Little West",
-      phone: "907.350.4298",
+      phone: "9073504298",
       instagram: "@alittlewest",
       desc: "metalsmith maker",
       email: "Hayleybudzinski@gmail.com",
-      thumbnail: "/assets/photos/vendor_crops/Hayley Budzinski_Alittlewest.jpeg"
+      thumbnail: "/assets/photos/vendor_crops/HayleyBudzinski_Alittlewest.jpeg"
     },
     {
       fullname: "Alyssa Wilson",
       shopname: "Art by Ocha",
-      phone: "303.829.0000",
+      phone: "3038290000",
       instagram: "@artbyocha",
       desc: "illustrator tattoo apprentice",
       email: "artbyocha@gmail.com",
-      thumbnail: "/assets/photos/vendor_crops/Alyssa Wilson_ArtbyOcha.jpeg"
+      thumbnail: "/assets/photos/vendor_crops/AlyssaWilson_ArtbyOcha.jpeg"
     },
     {
       fullname: "Holly Williams",
       shopname: "Pine Bones",
-      phone: "631.793.9265",
+      phone: "6317939265",
       instagram: "@pine.bones",
       desc: "illustrator",
       email: "pine.bones.studio@gmail.com",
-      thumbnail: "/assets/photos/vendor_crops/Holly Williams_Pine.bones.jpg"
+      thumbnail: "/assets/photos/vendor_crops/HollyWilliams_PineBones.jpg"
     },
     {
       fullname: "Katie White",
       shopname: "Velvet Moss Magic",
-      phone: "732.996.0059",
+      phone: "7329960059",
       instagram: "@velvetmossmagic",
       desc: "stained glass & metal maker",
       email: "katiewh26@yahoo.com",
-      thumbnail: "/assets/photos/vendor_crops/Katie White_VelvetMossMagic.jpeg"
+      thumbnail: "/assets/photos/vendor_crops/KatieWhite_VelvetMossMagic.jpeg"
     },
     {
       fullname: "Lizzie Iannizzotto",
       shopname: "Ianni Arts",
-      phone: "760.445.9535",
+      phone: "7604459535",
       instagram: "@lizzieianniz",
       desc: "beaded jewelry",
       email: "lizzie.zotto@gmail.com",
-      thumbnail: "/assets/photos/vendor_crops/Lizzie_Lizzie I.jpeg"
+      thumbnail: "/assets/photos/vendor_crops/LizzieIannizzotto_IanniArts.jpeg"
     },
     {
       fullname: "Brenden Klockenga",
       shopname: "Krizzles Mind",
-      phone: "217.891.3923",
+      phone: "2178913923",
       instagram: "@krizzlesmind",
       desc: "painter illustrator",
       email: "klockengab@gmail.com",
-      thumbnail: "/assets/photos/vendor_crops/Brenden Klockenga_Krizzle's Mind.jpeg"
+      thumbnail: "/assets/photos/vendor_crops/BrendenKlockenga_KrizzlesMind.jpeg"
     },
     {
       fullname: "Elaina Keegan",
       shopname: "Concrete Poppy Design",
-      phone: "925.640.4091",
+      phone: "9256404091",
       instagram: "@concretepoppy",
       desc: "sustainable candles",
       email: "concretepoppydesign@gmail.com",
-      thumbnail: "/assets/photos/vendor_crops/Elaina Keegan_Concrete Poppy.jpeg"
+      thumbnail: "/assets/photos/vendor_crops/ElainaKeegan_ConcretePoppy.jpeg"
     },
     {
       fullname: "Rosie Faccone",
       shopname: "rfaccone",
-      phone: "973.687.4388",
+      phone: "9736874388",
       instagram: "@rfaccone",
       desc: "silversmith jewelry",
       email: "rosiefaccone@gmail.com",
-      thumbnail: "/assets/photos/vendor_crops/Rosie Faccone_Rfaccone.jpeg"
+      thumbnail: "/assets/photos/vendor_crops/RosieFaccone_Rfaccone.jpeg"
     },
     {
       fullname: "Nikki Hazamy",
       shopname: "Apothecary",
-      phone: "313.617.7049",
+      phone: "3136177049",
       instagram: "@balancedrootapothecary",
       desc: "local apothecary",
       email: "hello@balancedrootapothecary.com",
-      thumbnail: "/assets/photos/vendor_crops/Nikki Hazamy_Balanced Root Apothecary.jpeg"
+      thumbnail: "/assets/photos/vendor_crops/Nikki Hazamy_BalancedRootApothecary.jpeg"
     },
     {
       fullname: "Rachael Reuter",
-      shopname: "Raereu ceramics",
-      phone: "417.230.7753",
+      shopname: "Raereu Ceramics",
+      phone: "4172307753",
       instagram: "@raereuceramics",
       desc: "ceramics",
       email: "reuter.rachael@gmail.com",
-      thumbnail: "/assets/photos/vendor_crops/Rachael Reuter_RaeReuCeramics.jpeg"
+      thumbnail: "/assets/photos/vendor_crops/RachaelReuter_RaeReuCeramics.jpeg"
+    },
+    {
+      fullname: "Stephanie Ledezma",
+      shopname: "Fermented Roots",
+      phone: "9999999999",
+      instagram: "@fermented.roots",
+      desc: "plant curator",
+      email: "stephanie.ledezma@gmail.com",
+      thumbnail: "/assets/photos/vendor_crops/StephanieLedezma_FermentedRoots.jpeg"
     }
   ])
 
