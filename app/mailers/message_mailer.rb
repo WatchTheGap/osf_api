@@ -1,8 +1,7 @@
 class MessageMailer < ApplicationMailer
 
     default from: "OldSolFiesta@gmail.com"
-    # default to: "OldSolFiesta@gmail.com"
-    default to: "sara@snbasile.com"
+    default to: "OldSolFiesta@gmail.com"
 
 
 def contact_team(message)
@@ -10,7 +9,7 @@ def contact_team(message)
   @lastname = message.lastname
   @phone = message.phone
   @textbody = message.textbody
-  @subject = 'New Message from OSF Contact Us'
+  @subject = 'New Message from OSF Contact Form'
   @from = message.email
 
   mail(subject:@subject, from:@from) do |format|
