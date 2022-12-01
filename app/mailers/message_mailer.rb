@@ -6,9 +6,12 @@ class MessageMailer < ApplicationMailer
 
 
 def contact_team(message)
-  @message = message.textbody
+  @firstname = message.firstname
+  @lastname = message.lastname
+  @phone = message.phone
+  @textbody = message.textbody
   @subject = 'New Message from OSF Contact Us'
-  @from = "#{message.firstname} <#{message.email}>"
+  @from = message.email
 
   mail(subject:@subject, from:@from) do |format|
     format.text
