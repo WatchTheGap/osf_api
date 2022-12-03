@@ -5,7 +5,7 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
-
+Sale.destroy_all
 Admin.destroy_all
 User.destroy_all
 Vendor.destroy_all
@@ -24,26 +24,7 @@ Admin.create!([
         phone: "5164283536",
     }
 ])
-p 'Created Test Admins'
-
-
-User.create!([
-    {
-        fullname: "Ferris Bueller",
-        email: "ferris@bueller.com",
-        instagram: "ferrisb1",
-        phone: "2223334444",
-        winner: false
-    },
-        fullname: "Cameron Frye",
-        email: "cameron@frye.com",
-        instagram: "camfrye1",
-        phone: "4445556666",
-        winner: false
-])
-
-p "Created Test Users"
-
+p 'Created Admins'
 
 Vendor.create!([
     {
@@ -192,4 +173,4 @@ Vendor.create!([
     }
   ])
 
-p "Created Test Vendors"
+p "Created Vendors"

@@ -19,6 +19,14 @@ class AdminsController < ApplicationController
     def show
       render json: @admin
     end
+
+    def resend_email
+      @admin = Admin.find_by(email: "sara@snbasile.com")
+      if params.include?("email")
+        @user = User.find_by(email: params["email"])
+        UserMailer.with(user: @user).welcome_email.deliver_now if @user
+      end
+    end
   
     # POST /admins
     def create
