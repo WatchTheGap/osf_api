@@ -79,7 +79,7 @@ Vendor.create!([
       phone: "9073504298",
       instagram: "@alittlewest",
       desc: "metalsmith maker",
-      email: "Hayleybudzinski@gmail.com",
+      email: "hayleybudzinski@gmail.com",
       thumbnail: "/assets/photos/vendor_crops/HayleyBudzinski_Alittlewest.jpeg"
     },
     {
@@ -171,6 +171,24 @@ Vendor.create!([
       desc: "plant curator",
       email: "steph.ledez95@gmail.com",
       thumbnail: "/assets/photos/vendor_crops/StephanieLedezma_FermentedRoots.jpeg"
+    },
+    {
+      fullname: "Emma Harrison",
+      shopname: "Emma Harrison",
+      phone: "9999999999",
+      instagram: "@Emmharr",
+      desc: "Tattooer",
+      email: "none@mail.com",
+      thumbnail: "/assets/photos/vendor_crops/EmmaHarrison_Emmharr.jpeg"
+    },
+    {
+      fullname: "Owlyn Madrone",
+      shopname: "Owlyn Madrone",
+      phone: "9999999999",
+      instagram: "@owlyntattoo",
+      desc: "Tattooer",
+      email: "none2@mail.com",
+      thumbnail: "/assets/photos/vendor_crops/OwlynMadrone_owlyntattoo.jpeg"
     }
   ])
 
